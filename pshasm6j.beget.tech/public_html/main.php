@@ -14,9 +14,9 @@
 	<div class="container-full">
 		<div class="row row-fluid first-bg">
 			<div class="col-sm-12">
-				<div class="lang-block">
-					<p><a href="<?=$site_url.$alt_lg.'/'?>"><?=$switch_lang?></a></p>
-				</div>
+<!--				<div class="lang-block">-->
+<!--					<p><a href="--><?//=$site_url.$alt_lg.'/'?><!--">--><?//=$switch_lang?><!--</a></p>-->
+<!--				</div>-->
 				<div class="main-links">
 					<p><a href="<?=$site_url.$lg.'/'.$seo_author[3].'/biography/'?>"><img class="logo-img-white" src="<?=$hname?>images/logo-white_<?=$lg?>.png"></a>
 					</p>

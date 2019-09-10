@@ -45,9 +45,9 @@ $to_catalog = 'eng - В каталог работ';
 $contact1 = 'eng - По вопросу приобретения: <a href="mailto:request@charskie.ru">request@charskie.ru</a>';
 $contact2 = 'eng - СМИ: <a href="mailto:press@charskie.ru">press@charskie.ru</a>';
 $contact3 = 'eng - По общим вопросам: <a href="mailto:info@charskie.ru">info@charskie.ru</a>';
-$contact4 = 'eng - Тел.: <a href="tel:+79857394133">+7 (985) 739-41-33</a>';
+$contact4 = 'eng - Тел.: <a href="tel:+79162724106">+7 (916) 272-41-06</a>';
 $contact5 = 'eng - Г. Москва, Колодезный пер, д.2а';
-$contact6 = 'eng - © 2017 Е.А. Чарский';
+$contact6 = 'eng - Е.А. Чарский';
 
 $to_main = 'To main page';
 

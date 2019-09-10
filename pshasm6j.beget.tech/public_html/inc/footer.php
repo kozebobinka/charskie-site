@@ -16,7 +16,7 @@
 											<li><a href="<?=$site_url.$lg.'/'.$seo_author[$row['id']].'/'.$menu[1].'/'?>"><?=$row['name']?></a></li>
 											<? endif; ?>
 											<? endwhile; ?>
-											<li><a href="<?=$catalog_url.$lg.'/'.(($par['author']>0)?($seo_author[$par['author']].'/'):'')?>" target="_blank"><?=$to_catalog?></a></li>
+<!--											<li><a href="--><?//=$catalog_url.$lg.'/'.(($par['author']>0)?($seo_author[$par['author']].'/'):'')?><!--" target="_blank">--><?//=$to_catalog?><!--</a></li>-->
 											
 										</ul>
 									</div>
@@ -35,10 +35,10 @@
 											</li>
 											<li>
 												<p><?=$contact4?></p>
-												<p><?=$contact5?></p>
+<!--												<p>--><?//=$contact5?><!--</p>-->
 											</li>
 											<li>
-												<p><?=$contact6?></p>
+												<p>© <?=date('Y')?> <?=$contact6?></p>
 											</li>
 										</ul>
 									</div>

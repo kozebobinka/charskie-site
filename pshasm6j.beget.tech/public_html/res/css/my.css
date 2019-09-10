@@ -243,7 +243,7 @@
 }
 .irina-bg {
   margin: 0px;
-  min-height: 410px;
+  min-height: 50vh;
   background-image:url(../../images/bg3.jpg);
   background-position:center;
   background-repeat:no-repeat;
@@ -259,7 +259,7 @@
 }
 .evgeniy-bg {
   margin: 0px;
-  min-height: 410px;
+  min-height: 50vh;
   background-image:url(../../images/bg41.jpg);
   background-position:center;
   background-repeat:no-repeat;
