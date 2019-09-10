@@ -1,0 +1,19 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+
+#RewriteCond %{HTTPS} =off 
+#RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [QSA,L]
+
+#RewriteRule ^(.*)/(.*)$ index.php?patch=$0 [PT,L]
+#RewriteRule ^(.*)/(.*)/(.*)$ index.php?patch=$0 [PT,L]
+
+#RewriteRule ^([^/]+)/$	index.php?lang=$1 [L,QSA]
+#RewriteRule ^([^/]+)/irina_charskaya/([^/]+)/?$	index.php?author=2&work=$2&lang=$1 [L,QSA]
+
+#RewriteRule ^(.*)evgeniy_charskiy/(.*)$ $1index.php?author=1&work=$2&lang=ru
+#RewriteRule ^(.*)irina_charskaya/(.*)$ $1index.php?author=2&work=$2&lang=ru
+#RewriteRule ^(.*)evgeniy_irina_charskie/(.*)$ $1index.php?author=3&work=$2&lang=ru
+

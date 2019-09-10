@@ -1,0 +1,234 @@
+
+@font-face {
+	font-family: 'FuturaPT-Light';
+	src: url('../fonts/FuturaPT/light/FuturaPT-Light.eot');
+	src: local('☺'), url('../fonts/FuturaPT/light/FuturaPT-Light.woff') format('woff'), url('../fonts/FuturaPT/light/FuturaPT-Light.ttf') format('truetype'), url('../fonts/FuturaPT/light/FuturaPT-Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'FuturaPT';
+	src: url('../fonts/FuturaPT/light/FuturaPT-Light.eot');
+	src: local('☺'), url('../fonts/FuturaPT/light/FuturaPT-Light.woff') format('woff'), url('../fonts/FuturaPT/light/FuturaPT-Light.ttf') format('truetype'), url('../fonts/FuturaPT/light/FuturaPT-Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'FuturaPT-LightOblique';
+	src: url('../fonts/FuturaPT/lighto/FuturaPT-LightOblique.eot');
+	src: local('☺'), url('../fonts/FuturaPT/lighto/FuturaPT-LightOblique.woff') format('woff'), url('../fonts/FuturaPT/lighto/FuturaPT-LightOblique.ttf') format('truetype'), url('../fonts/FuturaPT/lighto/FuturaPT-LightOblique.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'FuturaPT-Book';
+	src: url('../fonts/FuturaPT/book/FuturaPT-Book.eot');
+	src: local('☺'), url('../fonts/FuturaPT/book/FuturaPT-Book.woff') format('woff'), url('../fonts/FuturaPT/book/FuturaPT-Book.ttf') format('truetype'), url('../fonts/FuturaPT/book/FuturaPT-Book.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'FuturaPT-BookOblique';
+	src: url('../fonts/FuturaPT/booko/FuturaPT-BookOblique.eot');
+	src: local('☺'), url('../fonts/FuturaPT/booko/FuturaPT-BookOblique.woff') format('woff'), url('../fonts/FuturaPT/booko/FuturaPT-BookOblique.ttf') format('truetype'), url('../fonts/FuturaPT/booko/FuturaPT-BookOblique.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'FuturaPT-Demi';
+	src: url('../fonts/FuturaPT/demi/FuturaPT-Demi.eot');
+	src: local('☺'), url('../fonts/FuturaPT/demi/FuturaPT-Demi.woff') format('woff'), url('../fonts/FuturaPT/demi/FuturaPT-Demi.ttf') format('truetype'), url('../fonts/FuturaPT/demi/FuturaPT-Demi.svg') format('svg');
+	font-style: normal;
+}
+
+@-moz-document url-prefix() {
+  body {
+    font-weight: lighter !important;
+  }
+}
+
+.to_main {
+ text-decoration: underline;
+}
+.lang_a {
+  color: #d8d8d8;
+  padding-left:13px;
+}
+.lang_a:hover {
+  color: #000000;
+}
+.container-grey {
+  background-color:#F5F6F6;
+}
+.social {
+  line-height:17px;
+}
+.heading-center-my {
+  display: table;
+  margin: 0 auto;
+  padding: 0 60px;
+  position: relative;
+  text-transform: uppercase;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-size: 50px;
+  font-weight: 100;
+  color: #CDCCCC;
+}
+
+.logo-img-my {
+  height:32px;
+}
+.div-img-work {
+  line-height: 274px;
+  text-align: center;
+  height:290px;
+  background-color:#CDCCCC;
+  padding:8px;
+}
+.page-numbers-my {
+  font-family: 'FuturaPT-LightOblique';
+  font-size: 20px;
+  font-weight: 100;
+  margin: 0 10px;
+}
+.page-numbers-my-a {
+  border-bottom: 1px solid;
+}
+
+.attention-my {
+  font-family: 'FuturaPT-LightOblique';
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  line-height: 22px;
+}
+.attention-my p, .rules-my p {
+  margin: 0;
+}
+.attention-my p a {
+  border-bottom: 1px dashed;
+}
+.hidden-form {
+  display: none;
+  margin-bottom: 50px;
+}
+.rules-my {
+  font-family: 'FuturaPT-LightOblique';
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  line-height: 22px;
+}
+.rules-my p a {
+  border-bottom: 1px solid;
+}
+
+.letters-my {
+  letter-spacing: 1px;
+}
+.address li {
+  margin-bottom: 10px;
+}
+.address li p {
+  margin: 0;
+  line-height: 18px;
+  letter-spacing: 0px;
+}
+.apply-my {
+  font-family: 'FuturaPT-Light' !important;
+  font-size: 15px;
+  background-color: #CDCCCC;
+  padding:5px 10px !important;
+}
+.clear-my {
+  font-family: 'FuturaPT-Light' !important;
+  font-size: 18px;
+  background-color: #FFFFFF;
+  padding:5px 10px !important;
+  line-height: 1em !important;
+}
+
+.find-my {
+  padding: 0;
+  position: relative;
+  box-shadow: none;
+  margin-left: 10px;
+  font-family: 'FuturaPT-Light' !important;
+  font-size:18px;
+  /* top: 1px; */
+}
+.find-b-my {
+  position: relative;
+  margin-right: 10px;
+  color: #CDCCCC !important;
+}
+.marg-my {
+  margin-bottom: 10px;
+}
+
+.filter-block-my-ru {
+  padding-left: 106px;
+  padding-top: 10px;
+}
+.filter-block-my-en {
+  padding-left: 176px;
+  padding-top: 10px;
+}
+
+@media (max-width: 1200px) {
+.filter-block-my-ru {
+  padding-left: 86px;
+}
+.filter-block-my-en {
+  padding-left: 60px;
+}
+}
+@media (max-width: 995px) {
+.filter-block-my-ru {
+  padding-left: 0px;
+}
+.filter-block-my-en {
+  padding-left: 0px;
+}
+}
+.filter-block-my a {
+  font-family: 'FuturaPT-Light' !important;
+  font-size: 15px;
+  padding:0;
+}
+.back-my {
+  font-family: 'FuturaPT-LightOblique';
+  margin-bottom: 30px;
+}
+@media (min-width: 1200px)  {
+  .back-my {
+	margin-left: 130px;
+  }
+  .entry-content-my {
+	margin: 0 250px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .back-my {
+	margin-left: 45px;
+  }
+  .entry-content-my {
+	margin: 0 120px;
+  }
+}
+
+.cross-cancel {
+  vertical-align: super;
+  font-size: 10px;
+}
+
+.fa-square-o {
+padding-right: 1px;
+}
