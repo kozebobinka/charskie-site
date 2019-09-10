@@ -1,6 +1,6 @@
 <? 
 	$rows4page = 16;
-	$where = "(`year`>1000)";
+	$where = "(`year`>1000 AND public=1) ";
 	
 	$a = $b = $c = $d = $e = $f = '';
 	$_in = $_GET;
