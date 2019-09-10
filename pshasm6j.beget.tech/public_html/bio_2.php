@@ -1,13 +1,105 @@
-	<div class="container-full" id="irina">
-		<div class="row row-fluid irina-bg2">
-			<div class="col-md-1 col-lg-2 visible-md visible-lg">
-			</div>
-			<div class="col-md-3 text-left left-bio-name">
-				<img src="<?=$site_url?>images/irina_<?=$lg?>.png" alt="<?=$irina?>">
-				<p class="left-bio-dates">(05.07.1923 - 29.03.2015)</p>
-			</div>
-			<div class="col-md-5 text-right">
-				<img class="bigger-pic" src="<?=$site_url?>images/irina_pic_big.jpg" alt="<?=$irina?>">
-			</div>
-		</div>
-	</div>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha256-UhQQ4fxEeABh4JrcmAJ1+16id/1dnlOEVCFOxDef9Lw=" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+      integrity="sha256-nXBV7Gr2lU0t+AwKsnS05DYtzZ81oYTXS6kj7LBQHfM=" crossorigin="anonymous"/>
+<div class="container-full" id="irina">
+    <div class="row row-fluid irina-bg2">
+        <div class="col-md-1 col-lg-2 visible-md visible-lg">
+        </div>
+        <div class="col-md-3 text-left left-bio-name">
+            <img src="<?= $site_url ?>images/irina_<?= $lg ?>.png" alt="<?= $irina ?>">
+            <p class="left-bio-dates">(05.07.1923 - 29.03.2015)</p>
+        </div>
+        <div class="col-md-5 text-right">
+            <img class="bigger-pic" src="<?= $site_url ?>images/irina_pic_big.jpg" alt="<?= $irina ?>">
+        </div>
+    </div>
+</div>
+<div class="container-full article-bg p-5">
+    <div class="container">
+        <p>Ирина Чарская – советский, российский художник, живописец, график, автор многих сюжетно-тематических
+            композиций и натюрмортов, портретист, пейзажист.</p>
+        <p>Заслуженный художник РСФСР с 1967 года.</p>
+        <p>Ирина училась в Ленинградском художественном институте им. И.Е. Репина при Академии Художеств СССР у
+            известных мастеров графики К.И. Рудакова, А.Ф. Пахомова и С.Л. Абугова. Её дипломной работой стало создание
+            иллюстраций к «Тихому Дону». Работа экспонировалась на Всесоюзной выставке дипломных работ студентов
+            художественных вузов и получила высокую оценку в печати. Позже Ирина Алексеевна создала серию иллюстраций к
+            другому эпохальному роману Шолохова «Поднятая целина».</p>
+        <p>Всю свою плодотворную творческую жизнь Ирина Чарская провела в городе Ростове-на-Дону.</p>
+        <p>Ирина – художник широкого творческого диапазона, автор известных иллюстраций к произведениям М.А. Шолохова,
+            А.Н. Толстого, А.В. Калинина. Многие работы художницы награждены международными и советскими грамотами и
+            дипломами.</p>
+        <p>Для работ Чарской характерно лирическое начало в повседневном и будничном, чувство гармоничной слитности
+            человека и природы, прозрачность тишины и ощущение простора в свободных, пространственно решенных
+            композициях, тонкость колорита, построенного на продуманном звучании красок, на их строгом отборе.</p>
+        <p>В 1964 году Ирине довелось поехать в Италию. Интересен тот новый творческий импульс, та свобода живописных
+            приемов, с которой сделаны итальянские листы. Арсенал художественных средств, композиционное мышление в этих
+            работах очень разнообразны.</p>
+        <p>Натюрморты Чарской – очень важная для художницы сторона ее творчества. Как правило, они не многословны по
+            сюжету – два-три предмета, умело сгармонированных в цвете, во взаимодействии иногда довольно контрастных
+            тонов. Они пластичны и изобретательны.</p>
+        <p>Ирина Чарская – признанный мастер лирических пейзажей и выразительных портретов.</p>
+        <p>Также художница создала большое количество «жанровых» работ. Ирина Чарская всегда умела найти сюжет и
+            интересно его подать. Она работала в различных техниках и использовала разные решения и подходы.</p>
+        <p>Рисунки обнаженной натуры занимают особое место в творчестве художницы. Здесь она просто виртуозна. Ирина
+            работает во всех возможных техниках – это и поющие линии пером, и воздушная акварель, и мягкая пастель.
+            Натурные рисунки Ирины Чарской пластичны и выразительны.</p>
+        <p>Ирина Чарская – действительно многогранный мастер, ее работы, многие из которых созданы почти полвека назад,
+            выглядят современно, интересно и актуально.</p>
+        <p>Работы И. А. Чарской находятся в Ростовском, Ивановском, Архангельском, Владикавказском, Ставропольском
+            музеях изобразительных искусств, в Государственным Шолоховском музее в станице Вёшенской, в различных
+            краеведческих музеях России и в музеях Европы, а также в европейских и российских частных коллекциях.</p>
+
+        <div class="main-content">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="text-center">
+                        <img src="<?= $site_url ?>images/bio_irina/01.jpg">
+                        <p class="m-2">Ирина с семьей. 30 марта 1937, Ростов</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="text-center">
+                        <img src="<?= $site_url ?>images/bio_irina/02.jpg">
+                        <p class="m-2">10-й класс. 1941</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="text-center">
+                        <img src="<?= $site_url ?>images/bio_irina/03.jpg">
+                        <p class="m-2">Ленинград. 1950, зима</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="text-center">
+                        <img src="<?= $site_url ?>images/bio_irina/04.jpg">
+                        <p class="m-2">Ирина со своими ученицами Ростовского художественного училища</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="text-center">
+                        <img src="<?= $site_url ?>images/bio_irina/05.jpg">
+                        <p class="m-2">За работой. 1970-е гг.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="text-center">
+                        <img src="<?= $site_url ?>images/bio_irina/06.jpg">
+                        <p class="m-2">Вдохновение. 1970 гг.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="text-center">
+                        <img src="<?= $site_url ?>images/bio_irina/07.jpg">
+                        <p class="m-2">2005 г.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-theme">
+                <div class="owl-controls">
+                    <div class="custom-nav owl-nav"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -69,7 +69,10 @@
 		<script type='text/javascript' src='<?=$site_url?>res/js/jquery.carouFredSel.js'></script>
 		<script type='text/javascript' src='<?=$site_url?>res/js/jquery.magnific-popup.js'></script>
 		<script type='text/javascript' src='<?=$site_url?>res/js/isotope.pkgd.min.js'></script>
-		<script type='text/javascript' src='<?=$site_url?>res/js/script.js'></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+                integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous"></script>
+        <script type='text/javascript' src='<?=$site_url?>res/js/script.js'></script>
 		<script type='text/javascript' src='<?=$site_url?>res/js/my.js'></script>
+
 	</body>
 </html>																

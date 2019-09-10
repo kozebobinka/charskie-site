@@ -57,7 +57,7 @@ if ( (isset($par['menu'])) and (isset($par['author'])) ) {
 				header("Location: {$site_url}{$lg}{$_SERVER['REQUEST_URI']}"); 
 				exit;
 			}
-			$content = load_from_tilda("http://charskie.tilda.ws/{$par['author']}_$lg", $header_tilda);
+//			$content = load_from_tilda("http://charskie.tilda.ws/{$par['author']}_$lg", $header_tilda);
 			$page_file = "bio_{$par['author']}.php";
 			break;
 		case 'favorites' :
