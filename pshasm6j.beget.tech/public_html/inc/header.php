@@ -20,7 +20,10 @@
 		<link rel='stylesheet' href='<?=$site_url?>res/css/custom.css' type='text/css' media='all'/>
 		<link rel='stylesheet' href='<?=$site_url?>res/css/magnific-popup.css' type='text/css' media='all'/>
 		<link rel='stylesheet' href='<?=$site_url?>res/css/my.css' type='text/css' media='all'/>
-		
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+              integrity="sha256-UhQQ4fxEeABh4JrcmAJ1+16id/1dnlOEVCFOxDef9Lw=" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+              integrity="sha256-nXBV7Gr2lU0t+AwKsnS05DYtzZ81oYTXS6kj7LBQHfM=" crossorigin="anonymous"/>
 		
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
