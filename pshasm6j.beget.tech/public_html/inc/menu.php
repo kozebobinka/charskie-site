@@ -46,15 +46,21 @@
 												<span class="icon-bar bar-bottom"></span>
 											</button>
 											<nav class="collapse navbar-collapse primary-navbar-collapse">
+                                                <? if (isset($author_name)) : ?>
 												<p class="artist-name"><?=$author_name?></p>
+                                                <? endif ?>
 												<ul class="nav navbar-nav primary-nav letters-my">
-													<li><a href="<?=$site_url.$lg.'/'.$seo_author[$par['author']].'/'.$menu[1].'/'?>" <?=($par['menu']==$menu[1])?'class="m-selected"':''?>><?=$menu1?></a></li>
+                                                    <? if (isset($author_name)) : ?>
+                                                    <li><a href="<?=$site_url.$lg.'/'.$seo_author[$par['author']].'/'.$menu[1].'/'?>" <?=($par['menu']==$menu[1])?'class="m-selected"':''?>><?=$menu1?></a></li>
 													<!--<li><a href="<?=$site_url.$lg.'/'.$seo_author[$par['author']].'/'.$menu[2].'/'?>" <?=($par['menu']==$menu[2])?'class="m-selected"':''?>><?=$menu2?></a></li>
 													<li><a href="<?=$site_url.$lg.'/'.$seo_author[$par['author']].'/'.$menu[3].'/'?>" <?=($par['menu']==$menu[3])?'class="m-selected"':''?>><?=$menu3?></a></li>
 													<li><a href="<?=$site_url.$lg.'/'.$seo_author[$par['author']].'/'.$menu[4].'/'?>" <?=($par['menu']==$menu[4])?'class="m-selected"':''?>><?=$menu4?></a></li>
 													<li><a href="<?=$site_url.$lg.'/'.$seo_author[$par['author']].'/'.$menu[5].'/'?>" <?=($par['menu']==$menu[5])?'class="m-selected"':''?>><?=$menu5?></a></li>-->
 													<li><a href="<?=$catalog_url.$lg.'/'.$seo_author[$par['author']].'/'?>"><?=$menu6?></a></li>
-												</ul>
+                                                    <? else : ?>
+                                                    <li></li>
+                                                    <? endif ?>
+                                                </ul>
 											</nav>
 										</div>
 										<div class="navbar-header-right">
