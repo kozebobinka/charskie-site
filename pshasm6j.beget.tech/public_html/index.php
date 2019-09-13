@@ -16,8 +16,8 @@ if ( (isset($uri[2])) and ($uri[2] != '') and ($uri[2] == "404.php") ) {
 	include "404.php";
 	exit;
 }
-if ( (isset($uri[2])) and ($uri[2] == 'gdpr')) {
-    $page_file = "articles/gdpr.php";
+if ( (isset($uri[2])) and ($uri[2] == 'policy')) {
+    $page_file = "articles/policy.php";
 } elseif ( (isset($uri[2])) and ($uri[2] != '') and (!in_array($uri[2], $seo_author)) ) {
 	header("Location: {$site_url}{$default_lg}/404.php");
 	exit;
@@ -45,7 +45,7 @@ if ( isset($uri[5]) and (trim($uri[5]) != '') ) {
 // язык
 include "lang/$lg.php";
 
-if ( (isset($par['menu'])) and (isset($par['author'])) or ($uri[2] == 'gdpr')) {
+if ( (isset($par['menu'])) and (isset($par['author'])) or ($uri[2] == 'policy')) {
 
 	$header_tilda = '';
 	$content = '';

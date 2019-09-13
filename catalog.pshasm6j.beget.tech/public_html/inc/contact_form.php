@@ -18,7 +18,7 @@
 					</div>
 					<div class="rules-my">
 						<p><?=$contact_disclaimer1?></p>
-                        <p><?=$contact_disclaimer2?> <a target="_blank" href="<?=str_replace('catalog.', '', $site_url).$lg?>/gdpr" target="_blanc"><?=$contact_rules?></a><?=$contact_disclaimer3?></p>
+                        <p><?=$contact_disclaimer2?> <a target="_blank" href="<?=$main_url . $lg?>/policy" target="_blanc"><?=$contact_rules?></a><?=$contact_disclaimer3?></p>
                     </div>
 					<div class="wpcf7-form-control-wrap">
 						<input type="submit" value="Отправить" class="wpcf7-form-control wpcf7-submit"/>
