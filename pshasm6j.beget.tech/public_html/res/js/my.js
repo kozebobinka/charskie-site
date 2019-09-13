@@ -25,7 +25,7 @@ function show_form(str)
 // });
 
 jQuery('.main-content .owl-carousel').owlCarousel({
-    stagePadding: 50,
+
     loop: true,
     margin: 10,
     nav: true,
@@ -34,9 +34,6 @@ jQuery('.main-content .owl-carousel').owlCarousel({
         '<i class="fa fa-angle-right" aria-hidden="true"></i>'
     ],
     navContainer: '.main-content .custom-nav',
-    responsive:{
-        0:{
-            items: 1
-        },
-    }
+    items: 1,
+    mergeFit: false,
 });

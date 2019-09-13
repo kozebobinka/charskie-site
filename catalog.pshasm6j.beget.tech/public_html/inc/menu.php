@@ -1,8 +1,8 @@
 <div class="offcanvas open">
 	<div class="offcanvas-wrap">
-		<div class="offcanvas-user clearfix">
-			<a class="offcanvas-user-account-link" href="<?=$site_url . $alt_lg . substr($_SERVER['REQUEST_URI'],3)?>"><?=$switch_lang?></a>
-		</div>
+<!--		<div class="offcanvas-user clearfix">-->
+<!--			<a class="offcanvas-user-account-link" href="--><?//=$site_url . $alt_lg . substr($_SERVER['REQUEST_URI'],3)?><!--">--><?//=$switch_lang?><!--</a>-->
+<!--		</div>-->
 		<nav class="offcanvas-navbar letters-my">
 			<ul class="offcanvas-nav">
 				<? foreach ( $menu_aut as $key => $val ) : ?>
@@ -25,7 +25,7 @@
 									<div class="navbar-header">
 										<div class="navbar-header-left">
 											<div class="social">
-												<a class="lang_a" href="<?=$site_url . $alt_lg . substr($_SERVER['REQUEST_URI'],3)?>"><?=$switch_lang?></a>
+<!--												<a class="lang_a" href="--><?//=$site_url . $alt_lg . substr($_SERVER['REQUEST_URI'],3)?><!--">--><?//=$switch_lang?><!--</a>-->
 												<br>
 												<a href="<?=$main_url.$lg.'/'?>">
 													<i class="fa fa-angle-left"></i>&ensp;<span class="to_main"><?=$to_main?></span>

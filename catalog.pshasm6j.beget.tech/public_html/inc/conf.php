@@ -1,6 +1,6 @@
 <?
-$site_url = 'http://catalog.pshasm6j.beget.tech/';
-$main_url = 'http://pshasm6j.beget.tech/';
+$site_url = 'https://' . $_SERVER['HTTP_HOST'] . '/';
+$main_url = 'https://' . str_replace('catalog.', '', $_SERVER['HTTP_HOST']) . '/';
 
 $lg = 'ru';
 $alt_lg = 'en';
