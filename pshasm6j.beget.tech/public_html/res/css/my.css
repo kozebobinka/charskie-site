@@ -294,7 +294,7 @@
 }
 .article-bg .item img {
   display: inline !important;
-  max-height: 50vh;
+  max-height: 70vh;
   width: auto !important;
 }
 .article-bg .owl-dot {
@@ -309,7 +309,7 @@
 }
 .main-content .owl-theme .custom-nav {
   position: absolute;
-  top: 17vh;
+  top: 30vh;
   left: 0;
   right: 0;
 }

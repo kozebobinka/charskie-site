@@ -19,7 +19,7 @@
 		<link rel='stylesheet' href='<?=$site_url?>res/css/commerce.css' type='text/css' media='all'/>
 		<link rel='stylesheet' href='<?=$site_url?>res/css/custom.css' type='text/css' media='all'/>
 		<link rel='stylesheet' href='<?=$site_url?>res/css/magnific-popup.css' type='text/css' media='all'/>
-		<link rel='stylesheet' href='<?=$site_url?>res/css/my.css' media="screen" type="text/css"/>
+		<link rel='stylesheet' href='<?=$site_url?>res/css/my.css?1' media="screen" type="text/css"/>
 		
 		
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->

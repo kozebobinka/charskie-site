@@ -63,6 +63,6 @@
 		<script type='text/javascript' src='<?=$site_url?>res/js/jquery.magnific-popup.js'></script>
 		<script type='text/javascript' src='<?=$site_url?>res/js/isotope.pkgd.min.js'></script>
 		<script type='text/javascript' src='<?=$site_url?>res/js/script.js'></script>
-		<script type='text/javascript' src='<?=$site_url?>res/js/my.js'></script>
+		<script type='text/javascript' src='<?=$site_url?>res/js/my.js?1'></script>
 	</body>
 </html>																
