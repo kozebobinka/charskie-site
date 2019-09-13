@@ -1,14 +1,15 @@
+
 <div class="row row-fluid text-center hidden-form">
 	<div class="col-md-2"></div>
 	<div class="col-md-8">
 		<div class="row row-fluid">
 			<div class="col-sm-12">
-				<form>
+				<form id="mail-form" method="post">
 					<div class="wpcf7-form-control-wrap name">
-						<input type="text" name="name" value="" size="40" class="wpcf7-form-control" placeholder="<?=$contact_name?>:"/>
+						<input type="text" name="name" value="" size="40" class="wpcf7-form-control" placeholder="<?=$contact_name?>:" required/>
 					</div>
 					<div class="wpcf7-form-control-wrap phone">
-						<input type="phone" name="phone" value="" size="40" class="wpcf7-form-control" placeholder="<?=$contact_phone?>:"/>
+						<input type="phone" name="phone" value="" size="40" class="wpcf7-form-control" placeholder="<?=$contact_phone?>:" required/>
 					</div>
 					<div class="wpcf7-form-control-wrap email">
 						<input type="email" name="email" value="" size="40" class="wpcf7-form-control" placeholder="<?=$contact_email?>:"/>
@@ -27,4 +28,17 @@
 			</div>
 		</div>
 	</div>
+</div>
+
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+            </div>
+        </div>
+    </div>
 </div>

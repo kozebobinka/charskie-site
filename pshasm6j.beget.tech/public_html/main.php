@@ -75,12 +75,12 @@
 			</div>
 		</div>
 	</div>
-	<div class="container-full">
+	<div class="container">
 		<? while ( $row = mysql_fetch_array($res, MYSQL_ASSOC) ) : ?>
 		<div class="row row-fluid news-block">
 			<div class="col-md-1 col-lg-2 visible-md visible-lg">
 			</div>
-			<div class="col-md-4 col-lg-3 text-right" style="padding-top:5px">
+			<div class="col-md-4 col-lg-3 text-left" style="padding-top:5px">
 				<img class="news-pic" src="<?=$site_url?>images/articles/preview/<?=$row['file']?>" alt="">
 			</div>
 			<div class="col-md-5 text-left">
@@ -91,7 +91,7 @@
 					<? if ( $row['text'] != '' ) : ?>
 					<p class="news-link"><a href="<?=$site_url.$lg.'/'.$seo_author[$row['about']].'/'.$row['type'].'/'.$row['seo'].'/'?>"><?=$art_link1[$row['type']][$row['about']]?></a></p>
 					<? endif; ?>
-					<p class="news-link"><a href="<?=$site_url.$lg.'/'.$seo_author[$row['about']].'/'.$row['type'].'/'?>"><?=$art_link2[$row['type']][$row['about']]?></a></p>
+<!--					<p class="news-link"><a href="--><?//=$site_url.$lg.'/'.$seo_author[$row['about']].'/'.$row['type'].'/'?><!--">--><?//=$art_link2[$row['type']][$row['about']]?><!--</a></p>-->
 				</div>
 			</div>
 		</div>
